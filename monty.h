@@ -46,4 +46,5 @@ void free_stack(stack_t *stack);
 void tokenize_and_execute(char *line, unsigned int line_number, stack_t **stack);
 void pint(stack_t **stack, unsigned int line_number);
 void pop(stack_t **stack, unsigned int line_number);
+void swap(stack_t **stack, unsigned int line_number);
 #endif
